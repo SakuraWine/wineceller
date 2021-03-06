@@ -1,12 +1,16 @@
-import React from 'react';
+import {FC} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Title from './components/Title'
+import Title from './components/Title';
+import Gallery from './components/Gallery';
 
-function App() {
+const App: FC = () => {
   return (
-    <Title />
+    <div>
+      <Title />
+      <Gallery />
+    </div>
   );
-}
+};
 
 export default App;
