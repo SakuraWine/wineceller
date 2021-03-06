@@ -1,9 +1,15 @@
-import {FC} from 'react';
+import { FC } from 'react';
 
-const Illust: FC = () => {
+type Props = {
+    title: string;
+    url: string;
+};
+
+const Illust: FC<Props> = (props) => {
+    const { title, url } = props;
     return (
         <div className="illust">
-            <h2>Illust</h2>
+            <img src={url} alt={title} width="300" height="300"></img>
         </div>
     );
 };
