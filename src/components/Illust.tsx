@@ -9,7 +9,7 @@ const Illust: FC<Props> = (props) => {
     const { title, url } = props;
     return (
         <div className="illust">
-            <img src={url} alt={title} width="400"></img>
+            <img src={url} alt={title} width="30%"></img>
         </div>
     );
 };
