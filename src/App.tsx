@@ -1,12 +1,12 @@
 import { FC } from 'react';
 import './App.css';
-import Title from './components/Title';
+import Header from './components/Header';
 import Gallery from './components/Gallery';
 
 const App: FC = () => {
   return (
     <div>
-      <Title />
+      <Header />
       <Gallery />
     </div>
   );
