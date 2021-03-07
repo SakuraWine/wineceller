@@ -1,11 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import { FC } from 'react';
 import './App.css';
+import Header from './components/Header';
+import Gallery from './components/Gallery';
 
-function App() {
+const App: FC = () => {
   return (
-    <div className="App"></div>
+    <div>
+      <Header />
+      <Gallery />
+    </div>
   );
-}
+};
 
 export default App;
