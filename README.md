@@ -8,5 +8,6 @@ node 15.9.0
 
 ```sh
 yarn
+yarn server
 yarn start
 ```
